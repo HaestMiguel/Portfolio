@@ -1,0 +1,103 @@
+.tleft{
+    text-align: left !important;
+
+}
+.responsive_img500 {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    border-radius: 5%!important;
+}
+.responsive_img700 {
+  width: 100%;
+  max-width: 500px;
+  height: auto;
+}
+.popup{
+    animation: popup 0.7s;
+}
+  
+@keyframes popup {
+    0%{
+      transform: scale(1);
+    }
+    50%{
+      transform: scale(1.4);
+    }
+    60%{
+      transform: scale(1.1);
+    }
+    70%{
+      transform: scale(1.2);
+    }
+    80%{
+      transform: scale(1);
+    }
+    90%{
+      transform: scale(1.1);
+    }
+    100%{
+      transform: scale(1);
+    }
+}
+.t-black{
+  color: black;
+}
+.bg-img {
+  padding-top: 12rem;
+  padding-bottom: 12rem;
+  text-align: center;
+  color: #fff;
+  background-image: url("../assets/img/M_Formaat2.jpg");
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  background-size: cover;
+}
+.bg-opacity{
+  background-color: rgba(255, 255, 255, 0.60);
+  border-radius: 20%;
+}
+.cblack{
+  color: black !important;
+}
+.cdark{
+  color: rgb(30, 30, 30)!important;
+}
+.small{
+  font-size: 20px!important;
+}
+.small2{
+  font-size: 20px!important;
+  line-height: 1rem!important;
+}
+.brown{
+  color:rgba(48, 32, 17,1)!important ;
+}
+.btn-brown{
+  color: #fff;
+  background-color: rgba(48, 32, 17,1)!important;
+  border-color: rgba(48, 32, 17,1)!important;
+}
+.btn-brown-skills{
+  font-size: 1rem;
+  color: #fff;
+  background-color: rgba(48, 32, 17,1)!important;
+  border-color: rgba(48, 32, 17,1)!important;
+}
+.btn-brown-skills:hover{
+  color: #fff;
+  background-color: rgba(48, 32, 17,1)!important;
+  border-color: rgba(48, 32, 17,1)!important;
+}
+.btn-brown:hover{
+  color: #d9aa00;
+  background-color: rgb(92, 66, 42)!important;
+  border-color: rgba(48, 32, 17,1)!important;
+}
+.img-logo{
+  height: 50px!important;
+}
+a{
+  text-decoration: none!important;
+}

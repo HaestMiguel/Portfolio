@@ -1,0 +1,394 @@
+/* in stylish-portfolio.min.css wijzig je NIETS */
+/* schrijf in dit bestand je eigen stijlregels om opmaak aan te passen */
+header.masthead {
+    text-align: center;
+    color: #fff;
+    background-image: url(../img/header_bg.jpg);
+    background-position: center center;
+    background-attachment: scroll;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+body {
+    font-family: "Arimo", sans-serif;
+    font-style: normal;
+}
+/* Selectie kleur naar blauw zetten; */
+::-moz-selection {
+    background: #74b5e3;
+    text-shadow: none;
+}
+
+::selection {
+    background: #74b5e3;
+    text-shadow: none;
+}
+
+/* extra padding margin */
+.extra-pm-5{
+    padding: 5px;
+    margin:5px;
+}
+label {
+    margin-bottom: 10px;
+}
+
+p.formulier {
+    margin: 0px;
+}
+
+img.realisaties-img {
+    height: 200px;
+}
+
+#portfolio .portfolio-item .portfolio-caption p {
+    font-family: "Arimo", sans-serif;
+    font-style: normal;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 700;
+    font-family: "Merriweather Sans", sans-serif;
+}
+
+.page-section h3.section-subheading {
+    font-family: "Arimo", sans-serif;
+    font-style: normal;
+}
+
+#navPHP .navbar-brand {
+    background-color: transparent;
+    color: #0c7ccb;
+    font-family: "Merriweather Sans", sans-serif;
+}
+
+#navPHP .navbar-brand.active,
+#navPHP .navbar-brand:active,
+#navPHP .navbar-brand:focus,
+#navPHP .navbar-brand:hover {
+    color: #0a609d;
+}
+
+#navPHP {
+    background-color: #212529;
+}
+
+#navPHP .navbar-nav .nav-item .nav-link {
+    font-size: 90%;
+    font-weight: 400;
+    padding: .75em 0;
+    padding-left: 14px;
+    padding-right: 14px;
+    letter-spacing: 1px;
+    color: #fff;
+    font-family: "Arimo", sans-serif;
+}
+
+#navPHP .navbar-nav .nav-item .nav-link.active,
+#navPHP .navbar-nav .nav-item .nav-link:hover {
+    color: #0c7ccb;
+}
+
+#navPHP .navbar-toggler {
+    font-size: 12px;
+    right: 0;
+    padding: 13px;
+    text-transform: uppercase;
+    color: #fff;
+    border: 0;
+    background-color: #0c7ccb;
+    font-family: "Merriweather Sans", sans-serif;
+}
+
+#mainNav .navbar-brand {
+    background-color: transparent;
+    color: #0c7ccb;
+    font-family: "Merriweather Sans", sans-serif;
+}
+
+#mainNav .navbar-brand.active,
+#mainNav .navbar-brand:active,
+#mainNav .navbar-brand:focus,
+#mainNav .navbar-brand:hover {
+    color: #0a609d;
+}
+
+#mainNav .navbar-nav .nav-item .nav-link {
+    font-size: 90%;
+    font-weight: 400;
+    padding: .75em 0;
+    letter-spacing: 1px;
+    color: #fff;
+    font-family: "Arimo", sans-serif;
+}
+
+#mainNav .navbar-nav .nav-item .nav-link.active,
+#mainNav .navbar-nav .nav-item .nav-link:hover {
+    color: #0c7ccb;
+}
+
+#mainNav .navbar-toggler {
+    font-size: 12px;
+    right: 0;
+    padding: 13px;
+    text-transform: uppercase;
+    color: #fff;
+    border: 0;
+    background-color: #0c7ccb;
+    font-family: "Merriweather Sans", sans-serif;
+}
+
+header.masthead .intro-text .intro-lead-in {
+    font-size: 22px;
+    line-height: 22px;
+    margin-bottom: 10px;
+    font-family: "Merriweather Sans", sans-serif;
+}
+
+header.masthead .intro-text .intro-heading {
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 50px;
+    margin-bottom: 105px;
+    font-family: "Merriweather Sans", sans-serif;
+}
+
+.btn-primary {
+    background-color:  #0c7ccb;
+    border-color:  #0c7ccb;
+    color: white;
+}
+
+.btn-primary:hover,
+.btn-primary:active,
+.btn-primary:focus {
+    background-color: #0a609d !important;
+    border-color: #0a609d !important;
+    color: white;
+}
+
+.btn-primary:active,
+.btn-primary:focus {
+    box-shadow: 0 0 0 .2rem rgba(10, 96, 157, 0.86) !important
+}
+
+div.container {
+    padding: 0px !important
+}
+
+.team-member img {
+    width: 266px;
+    height: 400px;
+    border: none;
+    box-shadow: 2px 2px 7px 0px rgba(0,0,0,0.75);
+}
+
+
+ul.social-buttons li a:active,
+ul.social-buttons li a:focus,
+ul.social-buttons li a:hover {
+    background-color: #0a609d;
+}
+
+img.zoom {
+    transition: transform .2s;
+    /* Animation */
+    width: 500px;
+    height: 200px;
+}
+
+img.zoom:hover {
+    transform: scale(1.1);
+}
+
+.fa-square {
+    color:  #0c7ccb;
+}
+
+a {
+    color: #0a609d;
+}
+
+a:hover {
+    color: #0a609d;
+}
+
+a.js-scroll-trigger {
+  font-family: "Arimo", sans-serif;
+    font-size: 16px;
+}
+
+ul.php {
+    margin-bottom: 0px;
+}
+
+.text-primary {
+    color: #0a609d !important
+}
+
+.footer {
+    background-color: #212529;
+}
+
+.footer span.copyright {
+    color: white;
+    font-family: "Arimo", sans-serif;
+    font-size: 16px;
+}
+
+.footerphp {
+    background-color: #212529;
+    padding: 25px;
+    text-align: center;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 100px;
+    width: 100%;
+    overflow: hidden;
+}
+
+.footerphp span.copyright {
+    color: white;
+    font-family: "Arimo", sans-serif;
+    font-size: 16px;
+}
+
+.footer-item {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.contactborder{
+    border: 3px solid black;
+    padding: 15px;
+    border-radius: 10px;
+    margin-top: 50px;
+    margin-bottom: 50px;    
+    width: 100%;
+}
+form{
+    text-align: center;
+}
+textarea{
+    width: 100%;
+}
+input{
+    width: 100%;
+}
+input:invalid{
+    color: red;
+}
+
+@media(max-width: 768px){
+    .contactborder{
+        margin: auto;
+        width: 75%;
+    }
+    input{
+        color: black;
+        background-color: white;
+        border: 2px solid black;
+        border-radius: 3px;
+
+    }
+    label{
+        font-size: 15px;
+        color: black;
+        background-color: white;
+        margin-bottom: 10px;
+    
+
+    }
+    textarea{
+        color: black;
+        background-color: white;
+        border: 2px solid black;
+        border-radius: 3px;
+    }
+    button.contactbutton{
+        margin-top: 10px;
+        color: white;
+        background-color:  #0c7ccb;
+        border-color:  #0c7ccb;
+        border-style: solid;
+        border-width: 3px;
+        width: 250px;
+        height: 25px;
+        border-radius: 3px;
+    }
+    button.contactbutton:hover{
+        border-color: #0a609d;
+        background-color: #0a609d;
+        color: white;
+    }
+    
+    img.zoom {
+        transition: transform .2s;
+        /* Animation */
+        width: 500px;
+        height: 200px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}
+
+@media (min-width: 768px) {
+    input{
+
+        color: black;
+        background-color: white;
+        border: 2px solid black;
+        border-radius: 3px;
+    }
+    label{
+        font-size: 15px;
+
+    }
+    textarea{
+        width: 100%;
+        color: black;
+        background-color: white;
+        border: 2px solid black;
+        border-radius: 3px;
+    }
+    button.contactbutton{
+        margin-top: 20px;
+        color: white;
+        background-color:  #0c7ccb;
+        border-color:  #0c7ccb;
+        border-style: solid;
+        border-width: 3px;
+        width: 200px;
+        height: 40px;
+        border-radius: 3px;
+    }
+    button.contactbutton:hover{
+        border-color: #0a609d;
+        background-color: #0a609d;
+        color: white;
+    }
+}
+
+@media (max-width: 1200px) {
+    .about-center {
+        text-align: center;
+    }
+}
+@media (min-width: 1200px) {
+    textarea{
+        width: 100%;
+    }
+    
+    span.icon {
+        position: relative;
+        left: 200px;
+    }
+}
